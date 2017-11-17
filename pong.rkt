@@ -40,7 +40,6 @@
 (check-expect (draw 1 '((1 2) (3 4) (5 6))) '((1 . 2) (3 . 4) (5 . 6)))
 (check-expect (draw 1 '((1 2 232) (3 4 82 19) (5 6 123 1))) '((1 . 2) (3 . 4) (5 . 6)))
 
-
 ; ball : World -> World
 ; Updates ball position.
 (define (ball w)
